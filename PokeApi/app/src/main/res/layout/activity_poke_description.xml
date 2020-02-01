@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/titleD"
         android:layout_marginTop="20dp"
-        android:textSize="65dp"
+        android:textSize="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CHARIZARD"
@@ -26,7 +26,17 @@
         android:layout_height="150dp"
         android:background="@color/colorPrimaryDark"
         />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
     <TextView
+        android:id="@+id/textDescription"
         android:background="@color/colorAccent"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
@@ -97,5 +107,6 @@
             android:layout_height="wrap_content"
             android:text="Flying"/>
     </LinearLayout>
-
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
